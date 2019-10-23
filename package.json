@@ -1,0 +1,21 @@
+{
+  "name": "sticky",
+  "version": "1.0.0",
+  "description": "My extraordinary Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "laravel-nuxt dev",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "interactjs": "^1.6.2",
+    "laravel-nuxt": "^2.0.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
