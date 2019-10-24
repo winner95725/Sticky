@@ -37,7 +37,12 @@
 </template>
 
 <script>
+    import draggable from 'vuedraggable'
+
     export default {
+        components: {
+            draggable,
+        },
         props: ['allNotes'],
         data: function() {
             return {

@@ -11,9 +11,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "css-loader": "^3.2.0",
     "interactjs": "^1.6.2",
     "laravel-nuxt": "^2.0.2",
-    "nuxt": "^2.0.0"
+    "loader": "^2.1.1",
+    "nuxt": "^2.0.0",
+    "stylus": "^0.54.7",
+    "vuedraggable": "^2.23.2"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0"

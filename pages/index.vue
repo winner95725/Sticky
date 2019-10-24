@@ -10,13 +10,18 @@
     <div id="drag-3" class="draggable">
         <textarea id="note"/>
     </div>
+    <single-note/>
   </div>
+  
 </template>
 <script>
 import interact from "interactjs";
+import singleNote from '../components/singleNote.vue'
 
 export default {
-
+    components: {
+        'single-note': singleNote
+    },
     created() {
         interact(".draggable").draggable({
            
