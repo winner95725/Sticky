@@ -37,9 +37,13 @@
 
 <script>
 
-module.exports = {
+import singleNote from './singleNote.vue'
+import 'typeface-roboto'
+
+export default {
+
     components: {
-        'single-note': httpVueLoader('components/singleNote.vue')
+        'singleNote': singleNote
     },
     data: function () {
         return {

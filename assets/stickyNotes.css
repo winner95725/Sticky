@@ -504,3 +504,8 @@ footer span i {
   opacity: 1;
   transition: all 0.5s;
 }
+
+.v-content__wrap {
+  background-color: white;
+  color: black; 
+}

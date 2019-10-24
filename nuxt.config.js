@@ -25,6 +25,7 @@ export default {
   ** Global CSS
   */
   css: [
+    
     '@/assets/stickyNotes.css'
   ],
   /*
@@ -42,6 +43,20 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    [
+      'nuxt-fontawesome', {
+        imports: [
+         {
+           set: '@fortawesome/free-solid-svg-icons',
+           icons: ['fas']
+         },
+         {
+           set:'@fortawesome/free-brands-svg-icons',
+           icons: ['fab']
+         }
+       ]
+      }
+    ]
   ],
   /*
   ** vuetify module configuration

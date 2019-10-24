@@ -13,8 +13,8 @@
                         <p v-else :class="{expand: idToExpand == i, isDone: oneNote.completed}" v-html="modifiedText(i)"></p>
                         <div class="meta">
                             <span v-if="edit && editId == i" @click="updateNote(i, oneNote)"><i class="fas fa-check"></i></span>
-                            <span v-else @click=editNote(i)><i class="fas fa-pencil-alt"></i></span>
-                            <span @click="toggleTransition(i)"><i class="fas fa-palette"></i></span>
+                            <span v-else @click=editNote(i)><i class="fa fa-pencil-alt"></i></span>
+                            <span @click="toggleTransition(i)"><i class="fa fa-palette"></i></span>
                             <span @click="deleteNote(i)"><i class="far fa-trash-alt"></i></span>
                             <span v-if="oneNote.long" @click="expandNote(i)"><i class="fas fa-expand"></i></span>
                             <span @click="copyLink(i)"><i class="fas fa-link"></i></span>
@@ -38,7 +38,8 @@
 
 <script>
     import draggable from 'vuedraggable'
-
+    import 'typeface-roboto'
+    
     export default {
         components: {
             draggable,
